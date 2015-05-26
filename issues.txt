@@ -1,0 +1,3 @@
+﻿+ Site registration won't accept a DOB due to the same stored procedure being used for the random user generator
++ DMU mail server doesn't work from off campus locations
++ The conversion of the nvarchar value '07371590308' overflowed an int column. The statement has been terminated.

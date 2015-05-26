@@ -1,0 +1,217 @@
+*{margin:0;padding:0;}
+body {
+	color: #444;
+	background-color: #d9d9d9;
+	font-family: Arial, sans-serif;
+	text-shadow: 0 0 0 rgba(0,0,0,0.1);
+    background-image: url(../img/bg.png);
+}
+.title {
+    text-align: center;
+    font-size: 52px;
+}
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+    padding: 0;
+}
+.header {
+	height: 100px;
+}
+.content {
+	background-color: #FFF;
+	border: 1px solid #CCC;
+	padding: 40px;
+    height: auto;
+}
+.wide {
+    width: 878px;
+}
+.thin {
+    width: 378px;
+}
+.rockwell {
+    font-family: Rockwell, sans-serif;
+}
+.login {
+    color: #FFF;
+    background-image: url(../img/login.png);
+    background-repeat: no-repeat;
+    background-position-x: -4px;
+    background-position-y: center;
+    padding: 0 14px 0 44px;
+    height: 40px;
+}
+.register {
+    color: #FFF;
+    background-image: url(../img/register.png);
+    background-repeat: no-repeat;
+    background-position-x: -4px;
+    background-position-y: center;
+    padding: 0 14px 0 44px;
+    height: 40px;
+}
+.cancel {
+    color: #FFF;
+    background-image: url(../img/cancel.png);
+    background-repeat: no-repeat;
+    background-position-x: -4px;
+    background-position-y: center;
+    padding: 0 14px 0 44px;
+    height: 40px;
+}
+.select {
+    color: #FFF;
+    background-image: url(../img/select.png);
+    background-repeat: no-repeat;
+    background-position-x: -4px;
+    background-position-y: center;
+    padding: 0 14px 0 44px;
+    height: 40px;
+}
+.button {
+    border: none;
+    margin: 0;
+}
+.button:hover {
+    cursor: pointer;
+}
+.std {
+    background-color: #A5A5A5;
+}
+.std:hover {
+    background-color: #999999;
+}
+.confirm {
+    background-color: #0BA300;
+}
+.confirm:hover {
+    background-color: #0A8F00;
+}
+.warning {
+    background-color: #da3610;
+}
+.warning:hover {
+    background-color: #ab2a0d;
+}
+.forgot {
+    color: #666;
+    background-color: #FFF;
+    font-size: 10px;
+    text-decoration: underline;
+}
+.forgot:hover {
+    color: #0BA300;
+}
+.textbox {
+    font-size: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #AAA;
+    padding: 5px 10px;
+}
+.listbox {
+    font-size: 16px;
+    border: 1px solid #AAA;
+}
+textarea:disabled {
+    background-color: #F8F8F8;
+    border: 1px solid #AAA;
+}
+textarea {
+    padding: 6px;
+    -webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+p {
+    margin: 0 0 10px;
+}
+.contractheader {
+    color: #444;
+    font-weight: normal;
+    text-align: center;
+    margin: 0 0 20px;
+}
+.contract {
+    width: 154px;
+    border-right: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+    padding: 20px 10px 40px;
+    float: left;
+    display: inline-block;
+}
+.contract:nth-child(6) {
+    border: 0;
+    border-bottom: 1px solid #CCC;
+}
+.contract h1 {
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+    margin: 0 0 6px;
+}
+.contract p {
+    font-size: 14px;
+    text-align: center;
+    line-height: 26px;
+    margin: 0 0 20px;
+}
+.contract .detail {
+    font-weight: bold;
+    margin: 0;
+    border-top: 1px solid #888;
+}
+.contract .number {
+    border-bottom: 1px solid #888;
+}
+.contract .bigger {
+    font-size: 30px;
+    padding: 0 0 6px;
+}
+.basic, .standard, .premium, .unlimited, .international {
+    background-image: url(../img/icons.png);
+    width: 154px;
+    height: 110px;
+    display: inline-block;
+}
+.basic {
+    background-position-x: 0px;
+}
+.standard {
+    background-position-x: -154px;
+}
+.premium {
+    background-position-x: -310px;
+}
+.unlimited {
+    background-position-x: -462px;
+}
+.international {
+    background-position-x: -616px;
+}
+::selection {
+	background: #ffb7b7; /* Safari */
+	}
+::-moz-selection {
+	background: #ffb7b7; /* Firefox */
+}
+table, td, th
+{
+border-bottom: 1px solid #AAA;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+td
+{
+padding: 5px 15px;
+margin: 0;
+}
+tr:nth-child(1) {
+font-weight: bold;
+background-color: #EEE;
+}
+tr:nth-child(2n) {
+background-color: #F4F4F4;
+}

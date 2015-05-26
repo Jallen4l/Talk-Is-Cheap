@@ -1,0 +1,181 @@
+.content {
+    height: 261px;
+}
+.button {
+    border: none;
+    margin: 0;
+}
+.button:hover {
+    cursor: pointer;
+}
+.std {
+    background-color: #B5B5B5;
+}
+.std:hover {
+    background-color: #999999;
+}
+.confirm {
+    background-color: #0BA300;
+}
+.confirm:hover {
+    background-color: #0A8F00;
+}
+.warning {
+    background-color: #da3610;
+}
+.warning:hover {
+    background-color: #ab2a0d;
+}
+.home, .mail, .mail, .logout, .edit, .activity, .save, .message, .send, .search, .message, .back, .open, .read, .delete, .report {
+    color: #FFF;
+    background-repeat: no-repeat;
+    background-position-x: 0px;
+    background-position-y: center;
+}
+.home {
+    background-image: url(../img/home.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 48px;
+    height: 48px;
+}
+.mail {
+    background-image: url(../img/mail.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 48px;
+    height: 48px;
+}
+.help {
+    background-image: url(../img/help.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 48px;
+    height: 48px;
+}
+.logout {
+    background-image: url(../img/logout.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 48px;
+    height: 48px;
+}
+.edit {
+    color: #FFF;
+    background-image: url(../img/edit.png);
+    padding: 0 14px 0 44px;
+    height: 40px;
+}
+.activity {
+    color: #FFF;
+    background-image: url(../img/activity.png);
+    padding: 0 14px 0 44px;
+    height: 40px;
+}
+.save {
+    background-image: url(../img/save.png);
+    padding: 0 14px 0 44px;
+    height: 40px;
+}
+.message {
+    background-image: url(../img/message.png);
+    padding: 0 14px 0 44px;
+    height: 40px;
+}
+.send {
+    background-image: url(../img/send.png);
+    padding: 0 14px 0 52px;
+    height: 40px;
+}
+.search {
+    background-image: url(../img/search.png);
+    height: 40px;
+    padding: 0 14px 0 52px;
+}
+.back {
+    background-image: url(../img/back.png);
+    padding: 0 14px 0 52px;
+    height: 40px;
+}
+.open {
+    background-image: url(../img/open.png);
+    padding: 0 14px 0 52px;
+    height: 40px;
+}
+.read {
+    background-image: url(../img/read.png);
+    padding: 0 14px 0 52px;
+    height: 40px;
+}
+.delete {
+    background-image: url(../img/delete.png);
+    padding: 0 14px 0 52px;
+    height: 40px;
+}
+.report {
+    background-image: url(../img/report.png);
+    padding: 0 14px 0 52px;
+    height: 40px;
+}
+.welcome {
+    font-size: 28px;
+    margin: 6px 0 16px;
+}
+.title {
+    text-align: center;
+    font-size: 52px;
+}
+.welcome {
+    font-size: 28px;
+    margin: 0 0 16px;
+}
+span {
+    display: inline-block;
+    z-index: 1;
+    width: 880px;
+}
+.details {
+    color: #777;
+    margin: 0 0 12px;
+    font-size: 14px;
+}
+.stat {
+    margin: 0 6px 10px 0;
+    display: inline-block;
+    background-color: #a1afb2;
+}
+.big {
+    color: #FFF;
+    height: 98px;
+    width: 206px;
+}
+.date {
+    color: #666;
+    background-image: url(../img/datebg.png);
+    background-color: #EEEEEE;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 78px;
+    width: 98px;
+}
+.bill {
+    color: #666;
+    background-color: #EEEEEE;
+    margin: 0;
+    height: 98px;
+    width: 98px;
+}
+.largestat {
+    font-size: 48px;
+    text-align: center;
+    margin: 8px 0 0;
+}
+.smallstat {
+    font-size: 30px;
+    text-align: center;
+    margin: 13px 0 0;
+}
+.stattext {
+    font-size: 14px;
+    text-align: center;
+}

@@ -1,0 +1,170 @@
+﻿
+.content {
+    height: 260px;
+}
+.textbox {
+    font-size: 16px;
+    border: 1px solid #AAA;
+    padding: 5px;
+}
+.listbox {
+    font-size: 16px;
+    border: 1px solid #AAA;
+}
+.listbox option {
+    padding: 4px 2px;
+}
+.listbox select {
+    color: #FFF;
+    background-color: #666;
+}
+.listbox option:focus {
+    background-color: #666;
+}
+.home, .mail, .suspend, .logout, .edit, .reports, .save, .suspendbutton, .message, .send, .search, .message, .back, .open, .read, .delete, .report {
+    color: #FFF;
+    background-repeat: no-repeat;
+    background-position-x: 0px;
+    background-position-y: center;
+}
+.home {
+    background-image: url(../img/home.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 48px;
+    height: 48px;
+}
+.mail {
+    background-image: url(../img/mail.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 48px;
+    height: 48px;
+}
+.suspend {
+    background-image: url(../img/suspend.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 48px;
+    height: 48px;
+}
+.logout {
+    background-image: url(../img/logout.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 48px;
+    height: 48px;
+}
+.edit {
+    background-image: url(../img/edit.png);
+    padding: 0 14px 0 44px;
+    height: 40px;
+}
+.reports {
+    background-image: url(../img/activity.png);
+    padding: 0 14px 0 44px;
+    height: 40px;
+}
+.save {
+    background-image: url(../img/save.png);
+    padding: 0 14px 0 44px;
+    height: 40px;
+}
+.suspendbutton {
+    background-image: url(../img/suspendbutton.png);
+    padding: 0 14px 0 44px;
+    height: 40px;
+}
+.message {
+    background-image: url(../img/message.png);
+    padding: 0 14px 0 44px;
+    height: 40px;
+}
+.send {
+    background-image: url(../img/send.png);
+    padding: 0 14px 0 52px;
+    height: 40px;
+}
+.search {
+    background-image: url(../img/search.png);
+    height: 40px;
+    padding: 0 14px 0 52px;
+}
+.back {
+    background-image: url(../img/back.png);
+    padding: 0 14px 0 52px;
+    height: 40px;
+}
+.open {
+    background-image: url(../img/open.png);
+    padding: 0 14px 0 52px;
+    height: 40px;
+}
+.read {
+    background-image: url(../img/read.png);
+    padding: 0 14px 0 52px;
+    height: 40px;
+}
+.delete {
+    background-image: url(../img/delete.png);
+    padding: 0 14px 0 52px;
+    height: 40px;
+}
+.report {
+    background-image: url(../img/report.png);
+    padding: 0 14px 0 52px;
+    height: 40px;
+}
+.welcome {
+    font-size: 28px;
+    margin: 6px 0 16px;
+}
+span {
+    display: inline-block;
+    z-index: 1;
+}
+.details {
+    color: #777;
+    margin: 0 0 12px;
+    font-size: 14px;
+}
+.stat {
+    margin: 0 6px 10px 0;
+    display: inline-block;
+    background-color: #E8E8E8;
+}
+.big {
+    color: #666666;
+    height: 98px;
+    width: 206px;
+}
+.date {
+    color: #666666;
+    background-image: url(../img/datebg.png);
+    background-color: #E8E8E8;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 72px;
+    width: 98px;
+}
+.msg {
+    color: #666666;
+    background-color: #E8E8E8;
+    margin: 0;
+    height: 98px;
+    width: 98px;
+}
+.largestat {
+    font-size: 48px;
+    text-align: center;
+    margin: 8px 0 0;
+}
+.smallstat {
+    font-size: 30px;
+    text-align: center;
+    margin: 13px 0 0;
+}
+.stattext {
+    font-size: 14px;
+    text-align: center;
+}
